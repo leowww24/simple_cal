@@ -5,16 +5,16 @@ simple_cal
 
 文法规则：
 Expression:
-  Term
-  Expression "+" Term
-  Expression "-" Term
+	Term
+	Expression "+" Term
+	Expression "-" Term
 Term:
-  Primary
-  Term "*" Primary
-  Term "/" Primary
-  Term "%" Primary
+	Primary
+	Term "*" Primary
+	Term "/" Primary
+ 	Term "%" Primary
 Primary
-  Number
-  "(" Expression ")"
+	Number
+	"(" Expression ")"
 Number:
-  floating-point-literal
+	floating-point-literal
